@@ -6,9 +6,9 @@ body {
   background-color: lightgray;
 }
 
-.content {
+/* .content {
   min-height: calc(100vh - 180px);
-}
+} */
 
 .App-logo {
   height: 40vmin;
