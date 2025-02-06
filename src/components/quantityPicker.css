@@ -6,3 +6,11 @@
 .quantity-picker label {
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .quantity-picker button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}

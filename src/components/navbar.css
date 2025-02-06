@@ -1,20 +1,24 @@
-.navbar-menu {
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-    align-items: center;
-    background-color: gray;
+/* Navbar customization */
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+    transition: transform 0.3s;
 }
 
-a {
-    text-decoration: none;
-    font-size: 18;
-    color: rgb(5, 56, 77);
-    letter-spacing: bolder;
-    text-decoration: none;
+.navbar-brand:hover {
+    transform: scale(1.1);
 }
 
-a:hover {
-    color: red;
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover {
+    background-color: #155724;
+    color: #ffcc00;
+    border-radius: 5px;
+    transform: translateY(-2px);
 }
