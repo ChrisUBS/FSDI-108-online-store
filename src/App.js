@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
-import Counter from './components/counter';
+import Catalog from './pages/catalog';
 import Footer from './components/footer';
-import CatalogPage from './components/catalogPage';
 
 // function App() {
 //   return (
@@ -41,15 +42,13 @@ import CatalogPage from './components/catalogPage';
 // }
 
 function App() {
-  return (
-      <div className="App">
-          <Navbar />
-          <main>
-              <CatalogPage />
-          </main>
-          <Footer />
-      </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Catalog />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

@@ -3,7 +3,7 @@ import './footer.css';
 function Footer() {
     return (
         <footer>
-            <p>Created by: Christian Bonilla</p>
+            <p>Created by: Christian Bonilla @ SDGKU 2025</p>
         </footer>
     );
 }

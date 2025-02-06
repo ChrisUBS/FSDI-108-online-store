@@ -1,0 +1,8 @@
+.quantity-picker button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quantity-picker label {
+    font-weight: bold;
+}

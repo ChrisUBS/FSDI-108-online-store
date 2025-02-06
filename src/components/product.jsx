@@ -1,13 +1,12 @@
-import React from 'react';
 import './product.css';
+import QuantityPicker from './quantityPicker';
 
-function Product({ product }) {
+function Product() {
     return (
-        <div className="product-card">
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
-            <p className="price">{product.price}</p>
-            <button>Add to Cart</button>
+        <div className="product">
+            <img src='https://picsum.photos/280/200' alt=''></img>
+            <h4>Product title here</h4>
+            <QuantityPicker />
         </div>
     );
 }
