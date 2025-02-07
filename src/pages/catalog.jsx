@@ -74,13 +74,23 @@ const catalog = [
     }
 ];
 
-const categories = ["fruit", "beverages", "vegetable", "merchandise", "dairy and eggs"];
+const categories = [];
 
 function Catalog() {
+
+    function displayCategories() {
+        catalog.map(product => {
+            if (!categories.includes(product.category)) {
+                categories.push(product.category);
+            }
+        });
+    }
+
     return (
         <div className="catalog container mt-2">
             <h1 className="text-center mb-4 text-success">Check Out Our Fresh Catalog</h1>
             <div className="filters">
+                {displayCategories()}
                 {categories.map(category => (
                     <button className="btn btn-sm btn-outline-secondary mb-4 me-2">{category}</button>
                 ))}

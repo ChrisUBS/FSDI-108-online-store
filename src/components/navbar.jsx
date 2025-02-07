@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
             <div className="container">
                 <a className="navbar-brand text-white fw-bold" href="#">
-                    SuperMarket
+                    Organika Store
                 </a>
                 <button
                     className="navbar-toggler"
