@@ -87,7 +87,7 @@ function Catalog() {
     }
 
     return (
-        <div className="catalog container mt-2">
+        <div className="catalog page container mt-2">
             <h1 className="text-center mb-4 text-success">Check Out Our Fresh Catalog</h1>
             <div className="filters">
                 {displayCategories()}

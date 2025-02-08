@@ -5,6 +5,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
 import Catalog from './pages/catalog';
+import About from './pages/about';
+import Admin from './pages/admin';
 import Footer from './components/footer';
 
 // function App() {
@@ -46,6 +48,8 @@ function App() {
         <div className="App">
             <Navbar />
             <Catalog />
+            <About />
+            <Admin />
             <Footer />
         </div>
     );
